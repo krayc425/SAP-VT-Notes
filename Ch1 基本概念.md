@@ -4,9 +4,7 @@
 
 * ERP：企业资源规划
 
-#### ERP 概念/定义（三个层次）
-
-##### 什么是 ERP？
+#### ERP 概念 / 定义（三个层次）
 
 * ERP 是一种先进的**管理思想/模式**
     * 涉及实体：咨询公司/德勤
@@ -26,13 +24,14 @@
 * ERP 是一套商业化**软件产品**
     * 涉及实体/供应商：SAP；产品 ECC6
     
-##### 什么是 ERP 实施？（过程）
+#### ERP 实施（过程）
 
 * 选购一套商品化**软件产品**  
 * 建立一个网络化的**信息系统**  
 * 导入一种先进的**管理模式**  
 
-##### 制造业方程式（基本规律）
+#### 制造业方程式（基本规律）
+
 任何制造业企业必须回答的五个问题
 
 1. 生产什么？
@@ -41,7 +40,7 @@
 4. 还缺什么？
 5. 要做什么？
 
-##### MRP 原理
+#### MRP 原理
 ```
                 预测  需求  合同（销）
                   ↓    ↓    ↓（生产什么？）
@@ -65,7 +64,8 @@
 
 ## 1.3 数据综述
     
-##### SAP/ERP 数据的三个层次及关系
+#### SAP/ERP 数据的三个层次及关系
+
 1. Organizational Data（A)
     * 组织数据，有“层次”，相当于“权限”
 2. Master Data（B）
@@ -107,6 +107,7 @@
 3. Customer Master 客户主文件（下游）
 
 #### Material Master
+
 * 数据丰富
 * 分门别类
 * 各尽其责
@@ -121,4 +122,82 @@
 * 基本视图
 * 财务视图
 * 业务视图（Vendor 采购，Customer 销售）
+
+## 1.4 项目实施
+
+实施原则：**信息集成**
+
+职能部门 ERP 项目实施的基本内容
+
+1. 数据
+    * **培训**
+    * 收集
+    * **审核**
+    * 录入
+2. 流程
+    * **识别**
+    * **整理**
+    * 分析
+    * 设计
+    * **培训**
+    
+## 5.2 IWM
+
+####  IM 库存管理
+
+**基于数量**
+
+1. Client
+2. Company Code
+3. Plant
+4. Storage Location（SLoc）
+
+#### WM 仓库管理
+
+**基于位置**
+
+1. 存储区域（大类、货区）
+2. 存储区域（细目、货架）
+
+#### IM 和 WM 的关系
+
+集成策略
+
+* 1个仓库代码，至少指派给1个（工厂+）存储位置
+* 1个仓库代码，可以指派给多个（工厂+）存储位置
+* 1个（工厂+）存储位置，只能指派给1个仓库代码
+* 不是所有的（工厂+）存储位置，必须指派给仓库代码
+
+#### Goods Movement
+
+1. Goods receipt（GR）
+2. Goods issue（GI）
+3. Stock transfer 库存移动（物理移动）
+4. Transfer posting 库存转账（逻辑移动）
+
+## 6.1 FI 与 CO
+
+#### FI（Financial Accounting）
+ 
+**财务会计**，对外（提供财务报表），过去
+  
+* G/L：General Ledger
+* AR：Accounts Receivable
+* AP：Accounts Payable
+  
+#### CO（Managerial Accounting）
+
+**管理会计**，对内（成本核算），现在和未来
+
+* Profitability Analysis
+* Cost Center Accounting
+* Product Cost Controlling
+
+#### 关系
+
+#### 统驭科目（Reconciliation Accounts）
+
+记账记在分类账（Sub-ledgers）上
+AR、AP 都是统驭科目
+
 
