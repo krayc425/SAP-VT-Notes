@@ -15,27 +15,28 @@
 
 #### Storage Location
 
-通过关注物料的**位置**和**状态**，“面向物流”
-在某种意义上，S Loc 就是 ERP 环境下的物料**“监视器”**
+通过关注物料的 **位置** 和 **状态** ，“面向物流”
+
+在某种意义上，S Loc 就是 ERP 环境下的物料 **“监视器”**
 
 **Combination of plant and storage location must be unique.**
 
 #### Purchasing Organization
 
-Evaluates vendors, negotiates contracts.
-Performs **strategic** activities.
+Evaluates vendors, negotiates contracts.  
+Performs **strategic** activities.  
 An enterprise may have more.
 
 ##### 三种模式
 
-1. 企业级采购组织，Cross company code
-2. 公司级采购组织，Cross plant
-3. 工厂级采购组织，Plant specific
+1. 企业级采购组织，Cross company code  
+2. 公司级采购组织，Cross plant  
+3. 工厂级采购组织，Plant specific  
 
 #### Purchasing Group
 
-A buyer or group of buyers.
-Performs **operational** activities.
+A buyer or group of buyers.  
+Performs **operational** activities.  
 Not assigned to or related to P Org.（不指派给采购组织，或与采购组织无关）
 
 ### B. 主数据
@@ -47,13 +48,13 @@ Not assigned to or related to P Org.（不指派给采购组织，或与采购�
 
 #### Vendor Master
 
-系统只向**“认证供应商”**进行采购
+系统只向 **“认证供应商”** 进行采购
 
 #### Purchasing Info
 
-交叉索引数据库，**relates vendors and materials.**
-One info record per combination of vendor and material.
-__供应商提供什么物料？
+交叉索引数据库，**relates vendors and materials.**  
+One info record per combination of vendor and material.  
+__供应商提供什么物料？  
 物料有什么供应商提供？__
 
 #### Purchasing Conditions
@@ -66,13 +67,13 @@ __供应商提供什么物料？
 
 ##### Obtained from
 
-* **Purchasing info records**
-* Contracts and agreements
+* **Purchasing info records**  
+* Contracts and agreements  
 * Other sources
 
 ## 实验
 
-采购业务流程，Based on GBI 2.4
+采购业务流程，Based on GBI 2.4  
 角色：Customer
 
 | Action | Character | MM | Step | Note |
