@@ -63,7 +63,7 @@ __供应商提供什么物料？
 
 * Gross price
 * **Discounts** and surcharges
-* Freight / shipping
+* Freight / Shipping
 
 ##### Obtained from
 
@@ -76,7 +76,7 @@ __供应商提供什么物料？
 采购业务流程，Based on GBI 2.4  
 角色：Customer
 
-| Action | Character | MM | Step | Note |
+| Action | Section | MM | Step | Note |
 | :-: | :-: | :-: | :-: | :-: | 
 | 创建供应商 | 采购部 | 6 | 1 |
 | 创建物料 | 物料部 | 7,8 | 2,3 |
