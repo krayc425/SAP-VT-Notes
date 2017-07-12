@@ -8,7 +8,7 @@
 2. Company Code（CC）
 3. Plant
 4. Storage Location（S Loc）/存储地点（共享的）
-5. Purchasing Organization（P Org）/采购组织（独有的）
+5. **Purchasing Organization（P Org）** /采购组织（独有的）
 6. Purchasing Group/采购组（附加的）
 
 共 6 个 = 3 基本的 + 1 共享的 + 1 独有的 + 1 附加的
@@ -71,7 +71,7 @@ __供应商提供什么物料？
 * Contracts and agreements  
 * Other sources
 
-## 实验
+## 2.2 采购流程
 
 采购业务流程，Based on GBI 2.4  
 角色：Customer
@@ -89,7 +89,7 @@ __供应商提供什么物料？
 | 发票验证 | 财务部 | 20 | 14 | 产生**会计凭证*** |
 | 结算应付账款 | 财务部 | 24 | 18 |
 
-*三单匹配后，发生所有权的转移、价值的转移，确认应付账款
+*三单（入库单、发票、PO）匹配后，发生所有权的转移、价值的转移，确认应付账款
 
 
 
