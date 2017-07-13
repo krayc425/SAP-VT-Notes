@@ -9,4 +9,6 @@ Notes for SAP VT Project 2017
 
 ### [Ch3 销售 SD](https://github.com/songkuixi/SAP_VT_Notes/blob/master/Ch3%20销售%20SD.md)
 
+### [Ch4 生产 PP](https://github.com/songkuixi/SAP_VT_Notes/blob/master/Ch4%20生产%20PP.md)
+
 
